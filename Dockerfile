@@ -12,6 +12,6 @@ RUN apt-get install -y apt-utils
 RUN apt-get install -y python3-pip python3-dev rabbitmq-server
 RUN pip3 install -r requirements.txt
 
-EXPOSE 80
+EXPOSE 8081
 
 CMD ["sh","startall.sh"]
